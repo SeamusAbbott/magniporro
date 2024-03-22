@@ -1,0 +1,36 @@
+{
+  "name": "magniporro",
+  "version": "1.0.0",
+  "description": "Ingests a smart contract's ABI and autogenerates an OpenAPI JSON, ready for Swagger codegen.",
+  "main": "index.js",
+  "bin": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha ./tests/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeamusAbbott/magniporro.git"
+  },
+  "keywords": [
+    "eximchain",
+    "saepe",
+    "labore",
+    "smartcontract",
+    "smart",
+    "contract",
+    "commodi",
+    "et",
+    "totam"
+  ],
+  "author": "ValentinPouros",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/SeamusAbbott/magniporro.git",
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
